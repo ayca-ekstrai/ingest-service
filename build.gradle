@@ -23,7 +23,11 @@ ext {
 }
 
 dependencies {
-	implementation 'com.azure.spring:azure-spring-boot-starter'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation("com.slack.api:bolt:1.6.0")
+	implementation("com.slack.api:bolt-servlet:1.6.0")
+	implementation("com.slack.api:bolt-jetty:1.6.0")
+	compile group: 'com.squareup.okhttp3', name: 'okhttp', version: '4.9.0'
 	annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
