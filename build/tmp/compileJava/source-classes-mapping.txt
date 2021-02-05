@@ -1,0 +1,8 @@
+io/ekstrai/poc/ingestservice/MessageConsumer.java
+ io.ekstrai.poc.ingestservice.MessageConsumer
+io/ekstrai/poc/ingestservice/MachineEvent.java
+ io.ekstrai.poc.ingestservice.MachineEvent
+io/ekstrai/poc/ingestservice/Utilities.java
+ io.ekstrai.poc.ingestservice.Utilities
+io/ekstrai/poc/ingestservice/IngestServiceApplication.java
+ io.ekstrai.poc.ingestservice.IngestServiceApplication
